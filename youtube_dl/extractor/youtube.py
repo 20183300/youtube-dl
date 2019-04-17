@@ -1704,7 +1704,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
         elif 'title' in player_response:
             video_title = video_details['title']
         else:
-            self._downloader.report_warning('Unable to extract video title')
+            #self._downloader.report_warning('Unable to extract video title')
             video_title = '_'
 
         # description
